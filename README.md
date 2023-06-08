@@ -8,5 +8,5 @@
 # RN (Requisitos Não Funcionais)
 
 - [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá;
-- [ ] Deve ser possível indentificarmos o usuário entre as requsições;
-- [ ] O usuário só pode visualizar transações o qual ele criou;
+- [x] Deve ser possível indentificarmos o usuário entre as requsições;
+- [x] O usuário só pode visualizar transações o qual ele criou;
