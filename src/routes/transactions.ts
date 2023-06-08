@@ -4,6 +4,15 @@ import crypto from 'node:crypto'
 import { knex } from '../database'
 import { checkSessionIdExists } from '../middlewares/check-session-id-exists'
 
+// Unitários: unidade da sua aplicação / teste para testsar recurso isolado da nosso aplicação
+// Integração: comunicação entre duas ou mais unidades
+// E2E - ponta a ponta: simula um usuário operando na nossa aplicação
+
+// front-end: abre a página de login, digite o texto no campo, clique no botão
+// back-end: chamadas HTTP, WebSockets
+
+// Pirâmide de testes: E2E (não dependem de nenhuma tecnologia, não dependem de arquitetura)
+
 export async function transactionsRoutes(app: FastifyInstance) {
   app.get(
     '/',
