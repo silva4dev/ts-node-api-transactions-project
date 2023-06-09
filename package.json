@@ -11,8 +11,7 @@
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
     "lint": "eslint src --ext .ts --fix",
     "build": "tsup src --out-dir build",
-    "test": "vitest",
-    "start": "node build/server.js"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
